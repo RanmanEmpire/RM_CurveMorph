@@ -39,6 +39,22 @@
 ![picture 1](images/38d5f1625ae66b9aa60dd5fab30135bc93cb4a9bfa19a7c60c536684b11a5301.png)
 
 
+=======
+<img src="images/38d5f1625ae66b9aa60dd5fab30135bc93cb4a9bfa19a7c60c536684b11a5301.png" width=70%/>
+
+
+### 注意事項
+- メッシュの適用問題(Blender4.0で確認)
+  - 問題
+    - おそらくRM_CurveMorphを使う全員が直面します
+    - RM_CurveMorphで作成したオブジェクトを適用する際にエラーが起こります
+    - RM_CurveMorphはカーブオブジェクトからメッシュデータを作るものですが、Blender内の処理では外見上はカーブオブジェクトのままです。そのためカーブオブジェクトの中にメッシュデータがあり、通常の変換処理ができずエラーとなっていると予想されます
+    - <img src="images/da53ce4210d606372f1e6d215ce55a82967626ddd88c8e2ebc18d1cc524651b9.png" width=70% />
+  - 解決方法
+    - メニューの「オブジェクト」→「変換」→「メッシュ」を選択するとメッシュへ変換されます
+    - <img src="images/1c7111bd8a8ab010810b37a2ee3b9f7af2d26533052c88f601bca59fd550beaa.png" width=70% />
+
+>>>>>>> feature/ver000/Add_precautions
 ### バグ報告・機能追加要望についてのお願い
 - 使用中にバグを発見した際・追加機能の要望があればぜひ作者までご連絡ください。それぞれご対応いたします。
 
