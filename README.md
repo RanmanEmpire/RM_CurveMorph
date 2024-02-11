@@ -2,6 +2,9 @@
 - **RM_CurveMorph**は3DCGソフトBlenderのジオメトリーノード製のツールです。カーブオブジェクトにモディファイヤとして適用し、指定したオブジェクトをカーブに沿って変形します。
 <img src="images/0095802bfab25be357368e3db10e0d3640cc97bf8505afe8b6a9a9f978e74d30.png" width=70%/>
 
+# 動作バージョン
+- Blender 4.0.0以降
+
 ### アセットライブラリへの登録方法
 - **RM_CurveMorph**はBlenderのジオメトリーノード製です。そのためアセットライブラリに登録して使用するといいでしょう。
 
@@ -38,7 +41,7 @@
 
 <img src="images/38d5f1625ae66b9aa60dd5fab30135bc93cb4a9bfa19a7c60c536684b11a5301.png" width=70%/>
 
-### 注意事項
+s### 注意事項
 - メッシュの適用問題(Blender4.0で確認)
   - 問題
     - おそらくRM_CurveMorphを使う全員が直面します
